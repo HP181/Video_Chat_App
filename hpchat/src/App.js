@@ -1,13 +1,10 @@
 import React from 'react'
-// import {Typography, AppBar} from "@mui/material"
 import VideoPlayer from './Components/VideoPlayer'
 import Options from './Components/Options'
 import Notifications from './Components/Notifications'
-// import {makeStyles} from "@emotion/styled"
+
 import { Typography, AppBar } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-// import {makeStyles} from "@emotion/styled"
-// import { styled } from '@mui/system'
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
@@ -48,8 +45,6 @@ const App = () => {
       <Options >
           <Notifications />
       </Options>
-      {/* OPTIONS
-      VIDEOPLAYER => NOTIFICATION */}
 
     </div>
   )
